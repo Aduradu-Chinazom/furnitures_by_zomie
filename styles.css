@@ -2,3 +2,70 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: zapfino;
+    background-color: #fbf6e2;
+}
+.hero{
+    padding: 10px;
+    background-color: #131842;
+}
+.navvv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecceae;
+}
+.navv{
+    display: flex;
+    gap: 30px;
+    margin-right: 10px;
+}
+.navv li{
+    color: #131842;
+    list-style: none;
+    cursor: pointer;
+}
+.herohero{
+    background-color: #ecceae;
+    color: #131842;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 350px;
+}
+.herohero button{
+    background-color: #e68369;
+    color: #131842;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.chinazom_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.chinazom_child_div{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+    gap: 10px;
+    color: #131842;
+    justify-content: center;
+    align-items: center;
+}
+.chinazom_child_div img{
+    width: 300px;
+    height: 200px;
+}
+.na{
+    text-align: center;
+    color: #131842;
+    margin-top: 20px;
+}
